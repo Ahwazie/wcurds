@@ -1,0 +1,178 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: #F8F8FF;
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c6c2c2;  /* Adjust as needed */
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: row; /* Set to row for horizontal alignment */
+  align-items: center;
+  justify-content: center; /* Centers items horizontally */
+  gap: 15px;  /* Space between buttons, increased for bigger buttons */
+  padding: 100px 0 0 0;
+}
+
+.dashboard-container-2 {
+  display: flex;
+  flex-direction: row; /* Set to row for horizontal alignment */
+  align-items: center;
+  justify-content: center; /* Centers items horizontally */
+  gap: 15px;  /* Space between buttons, increased for bigger buttons */
+  padding: 15px 0 0 0;
+}
+
+.dashboard-container-3 {
+  display: flex;
+  flex-direction: row; /* Set to row for horizontal alignment */
+  align-items: center;
+  justify-content: center; /* Centers items horizontally */
+  gap: 15px;  /* Space between buttons, increased for bigger buttons */
+  padding: 15px 0px 0px 0;
+}
+
+.dashboard-container-4 {
+  display: flex;
+  flex-direction: row; /* Set to row for horizontal alignment */
+  align-items: center;
+  justify-content: center; /* Centers items horizontally */
+  gap: 15px;  /* Space between buttons, increased for bigger buttons */
+  padding: 15px 0px 0px 0;
+  width: px;
+
+}
+
+.black-button {
+  width: 250px;
+  height: 200px;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;   /* 2x padding for bigger buttons */
+  font-size: 14px;  /* 2x font size */
+  cursor: pointer;
+  transition: 0.3s;  /* Smooth hover effect */
+  white-space: normal;
+}
+
+.black-button-wide-1 {
+  width: 520px;
+  height: 200px;
+  background-color: rgb(38, 81, 223);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;   /* 2x padding for bigger buttons */
+  font-size: 14px;  /* 2x font size */
+  cursor: pointer;
+  transition: 0.3s;  /* Smooth hover effect */
+  white-space: normal;
+}
+
+.black-button-wide-2 {
+  width: 520px;
+  height: 200px;
+  background-color: rgb(242, 255, 56);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;   /* 2x padding for bigger buttons */
+  font-size: 14px;  /* 2x font size */
+  cursor: pointer;
+  transition: 0.3s;  /* Smooth hover effect */
+  white-space: normal;
+}
+
+.black-button:hover {
+  background-color: #828080;  /* Slightly lighter shade of black on hover */
+}
+
+.black-button-wide-1:hover {
+  background-color: #828080;  /* Slightly lighter shade of black on hover */
+}
+
+.black-button-wide-2:hover {
+  background-color: #828080;  /* Slightly lighter shade of black on hover */
+}
+
+.button-icon {
+  display: block;  /* Make the image a block-level element */
+  margin: 0 auto 10px;  /* Center the image horizontally and add space below it */
+  width: 60px;  /* Example width; adjust as needed */
+  height: 60px;  /* Example height; adjust as needed */
+}
+
+.bottom-spacer-idk {
+  height: 300px; 
+}
